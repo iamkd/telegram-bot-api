@@ -2007,6 +2007,10 @@ type Sticker struct {
 	//
 	// optional
 	FileSize int `json:"file_size,omitempty"`
+	// Premium animation for the sticker, if the sticker is premium
+	//
+	// optional
+	PremiumAnimation *File `json:"premium_animation,omitempty"`
 }
 
 // StickerSet represents a sticker set.
